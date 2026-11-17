@@ -1,0 +1,9 @@
+gateway http://localhost:32809, restaurant 1, item CAR; waiting for scenario
+scenario running, measuring
+
+baseline: availability 48.3% (116/240 s)
+first failure t=0, last failure t=239, failed seconds=124
+restaurant instances over time:
+  t=  0s ['restaurant-service@sefa-restaurant-service:58085']
+  t=138s []
+saved C:\Users\gupta\OneDrive\Desktop\FAS\challenge_tools\..\challenge_results\baseline-20261110-143439.json

@@ -1,0 +1,90 @@
+Picked up JAVA_TOOL_OPTIONS: -XX:-UseContainerSupport
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2026-11-10 13:30:31.771  INFO 1 --- [           main] sefa.restclient.RestClientApplication    : Starting RestClientApplication using Java 17.0.4.1 on 6faf1e58261d with PID 1 (/app/spring-boot-application.jar started by root in /app)
+2026-11-10 13:30:31.781  INFO 1 --- [           main] sefa.restclient.RestClientApplication    : No active profile set, falling back to 1 default profile: "default"
+2026-11-10 13:30:33.794  INFO 1 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4d20b990-9ca5-3886-8681-60430579906a
+2026-11-10 13:30:34.336  INFO 1 --- [           main] sefa.restclient.RequestsGenerator        : Adapt? false
+2026-11-10 13:30:34.340  INFO 1 --- [           main] sefa.restclient.RequestsGenerator        : Trial duration: 5 minutes
+2026-11-10 13:30:34.341  INFO 1 --- [           main] sefa.restclient.RequestsGenerator        : Thread pool size: 50
+2026-11-10 13:30:34.496  INFO 1 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-11-10 13:30:34.721  INFO 1 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-11-10 13:30:35.014  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-11-10 13:30:35.023  INFO 1 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-11-10 13:30:35.066  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-11-10 13:30:35.067  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-11-10 13:30:35.067  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-11-10 13:30:35.067  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-11-10 13:30:35.067  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-11-10 13:30:35.068  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-11-10 13:30:35.068  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-11-10 13:30:35.660  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-11-10 13:30:35.664  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Not registering with Eureka server per configuration
+2026-11-10 13:30:35.673  INFO 1 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1794317435672 with initial instances count: 6
+2026-11-10 13:30:35.678  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : PerformanceFakerService initialized with the following values:
+2026-11-10 13:30:35.678  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeSlowOrdering? NO
+2026-11-10 13:30:35.679  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeSlowOrdering1Sleep: 1500.0
+2026-11-10 13:30:35.679  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeSlowOrdering1Start: 240
+2026-11-10 13:30:35.679  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeSlowOrdering1Duration: 60
+2026-11-10 13:30:35.679  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeSlowOrdering2Sleep: 600.0
+2026-11-10 13:30:35.679  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeSlowOrdering2Start: 180
+2026-11-10 13:30:35.679  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeSlowOrdering2Duration: 60
+2026-11-10 13:30:35.679  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeUnreachableRestaurantCounter: 0
+2026-11-10 13:30:35.680  INFO 1 --- [           main] s.r.domain.PerformanceFakerService       : fakeUnreachableRestaurantDelay: 2
+2026-11-10 13:30:35.686  INFO 1 --- [           main] s.r.domain.BenchmarksChangerService      : BenchmarksChangerService initialized with the following values:
+2026-11-10 13:30:35.686  INFO 1 --- [           main] s.r.domain.BenchmarksChangerService      : Change Implementation? NO
+2026-11-10 13:30:35.686  INFO 1 --- [           main] s.r.domain.BenchmarksChangerService      : changeBenchmarkStart: 9
+2026-11-10 13:30:35.690  INFO 1 --- [           main] s.r.domain.FailureInjectionService       : FailureInjectionService initialized with the following values:
+2026-11-10 13:30:35.690  INFO 1 --- [           main] s.r.domain.FailureInjectionService       : injectFailure? YES
+2026-11-10 13:30:35.690  INFO 1 --- [           main] s.r.domain.FailureInjectionService       : failureInjection1Start: 120
+2026-11-10 13:30:35.690  INFO 1 --- [           main] s.r.domain.FailureInjectionService       : failureInjection1Duration: 0
+2026-11-10 13:30:35.690  INFO 1 --- [           main] s.r.domain.FailureInjectionService       : failureInjection2Start: 340
+2026-11-10 13:30:35.690  INFO 1 --- [           main] s.r.domain.FailureInjectionService       : failureInjection2Duration: 0
+2026-11-10 13:30:35.691  INFO 1 --- [           main] s.r.domain.FailureInjectionService       : idOfInstanceToFail: restaurant-service@sefa-restaurant-service:58085
+2026-11-10 13:30:36.085  WARN 1 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-10 13:30:36.128  INFO 1 --- [           main] sefa.restclient.RestClientApplication    : Started RestClientApplication in 5.813 seconds (JVM running for 7.218)
+2026-11-10 13:30:44.345  INFO 1 --- [rtManagingTimer] sefa.restclient.RequestsGenerator        : Starting Monitor Routine
+2026-11-10 13:30:44.346  INFO 1 --- [rtManagingTimer] s.r.domain.AdaptationController          : startMonitorRoutine request: http://ramses-monitor:58001/rest/startRoutine
+2026-11-10 13:30:45.716  INFO 1 --- [rtManagingTimer] sefa.restclient.RequestsGenerator        : Disabling adaptation
+2026-11-10 13:30:45.716  INFO 1 --- [rtManagingTimer] s.r.domain.AdaptationController          : changeAdaptationStatus request: http://ramses-plan:58003/rest/adaptationStatus?adapt={adaptValue}
+2026-11-10 13:32:35.706  INFO 1 --- [        Timer-0] s.r.domain.FailureInjectionService       : failureInjection1Start: injecting failure
+2026-11-10 13:32:35.708  INFO 1 --- [        Timer-0] s.r.domain.AdaptationController          : stopInstance request: http://sefa-instances-manager:58015/rest/removeInstance
+2026-11-10 13:34:29.099  INFO 1 --- [ionShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application REST-CLIENT with eureka with status DOWN
+2026-11-10 13:34:29.158  INFO 1 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-11-10 13:34:29.180  INFO 1 --- [ionShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-11-10 13:34:29.182 ERROR 1 --- [   scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.core.task.TaskRejectedException: Executor [java.util.concurrent.ThreadPoolExecutor@21709a2f[Terminated, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 11747]] did not accept task: org.springframework.aop.interceptor.AsyncExecutionInterceptor$$Lambda$570/0x0000000801043d28@6850e899
+	at org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.submit(ThreadPoolTaskExecutor.java:391) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at org.springframework.aop.interceptor.AsyncExecutionAspectSupport.doSubmit(AsyncExecutionAspectSupport.java:292) ~[spring-aop-5.3.22.jar!/:5.3.22]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.invoke(AsyncExecutionInterceptor.java:129) ~[spring-aop-5.3.22.jar!/:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar!/:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.22.jar!/:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.22.jar!/:5.3.22]
+	at sefa.restclient.RequestsGenerator$$EnhancerBySpringCGLIB$$c4584007.scheduleFixedRateTaskAsync(<generated>) ~[classes!/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor41.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[na:na]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@5c2b9023[Not completed, task = org.springframework.aop.interceptor.AsyncExecutionInterceptor$$Lambda$570/0x0000000801043d28@6850e899] rejected from java.util.concurrent.ThreadPoolExecutor@21709a2f[Terminated, pool size = 7, active threads = 0, queued tasks = 0, completed tasks = 11747]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source) ~[na:na]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(Unknown Source) ~[na:na]
+	at org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor.submit(ThreadPoolTaskExecutor.java:388) ~[spring-context-5.3.22.jar!/:5.3.22]
+	... 17 common frames omitted
+
